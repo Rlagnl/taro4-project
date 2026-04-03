@@ -1,0 +1,4 @@
+{
+  // 禁用HTML脚本验证，避免在Taro项目中使用<%= htmlWebpackPlugin.options.script %>时的错误提示
+  "html.validate.scripts": false
+}
