@@ -1,0 +1,8 @@
+{
+  "name": "class-to-function-converter",
+  "version": "1.0.0",
+  "description": "Converts React Class Components to Function Components",
+  "main": "index.ts",
+  "author": "",
+  "license": "MIT"
+}
