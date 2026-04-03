@@ -2,9 +2,7 @@ import { View, Text } from "@tarojs/components";
 import { AtButton } from "taro-ui";
 import { FC, useEffect } from "react";
 import { useShallow } from "zustand/react/shallow";
-import useStore from "@/store";
-
-import "taro-ui/dist/style/components/button.scss"; // 按需引入
+import { useStore } from "@/store";
 import "./index.scss";
 
 interface IIndexProps {
