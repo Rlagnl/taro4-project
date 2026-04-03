@@ -1,21 +1,12 @@
-import { Component, PropsWithChildren } from 'react'
+import { PropsWithChildren } from 'react';
+import '@/app.scss';
 
-import './app.scss'
+interface IAppProps extends PropsWithChildren {}
 
+const App: React.FC<IAppProps> = (props: IAppProps) => {
+  const { children } = props;
 
-  class App extends Component<PropsWithChildren> {
+  return children;
+};
 
-  componentDidMount () {}
-
-  componentDidShow () {}
-
-  componentDidHide () {}
-
-  // this.props.children 是将要会渲染的页面
-  render () {
-    return this.props.children
-  }
-}
-
-
-export default App
+export default App;

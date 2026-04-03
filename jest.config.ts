@@ -1,4 +1,4 @@
-const defineJestConfig = require('@tarojs/test-utils-react/dist/jest.js').default
+import defineJestConfig from '@tarojs/test-utils-react/dist/jest.js'
 
 module.exports = defineJestConfig({
   testEnvironment: 'jsdom',
